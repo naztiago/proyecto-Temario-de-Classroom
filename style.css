@@ -1,0 +1,140 @@
+* {
+    
+}
+
+html {
+    font-size: 30px;   
+    /* tamaño de fuente especial para dejarlo en base 10        */
+    font-family: monospace;
+    text-align: center;
+    background-color: black;
+    background-image: url(https://media1.giphy.com/media/tQHtASL5mC8cKPyfSU/giphy.gif?cid=ecf05e47mfzjg25x6atfxm6r5yjsjocjjhgqg1dl58a7g646&rid=giphy.gif&ct=g);
+    /*background-image: ur  l(https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?w=2000&t=st=1681777517~exp=1681778117~hmac=3badd9920eccf1e8636eb24f37171b0c7eca555754e68be4cdbb6f53f5730dc8);
+    */background-attachment: fixed;
+    background-size: cover;
+}   
+
+.main{
+    margin: 5px;
+    height: auto;
+    border: 5px solid rgb(66, 66, 66);
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: aliceblue;
+
+    
+}
+
+.titulo{
+    margin: 5px;
+    height: auto;
+    border: 7px solid #ffc34353;
+    color: aliceblue;
+}
+
+.card{
+    margin: 5px;
+    width: auto;    
+    height: auto;
+    border: 2px solid #ffd987;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.task{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: left;
+    font-size: 25px;
+    
+
+}
+
+.card2{
+    margin: 5px;
+    width: auto;    
+    height: auto;
+    border: 2px solid #ffd987;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.titulos_classrom{
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    display: block;
+    width: calc(150% / 3); /* ocupar un tercio del ancho de la pantalla */
+    margin: 0px auto; /* centrar la línea y agregar un margen superior e inferior */
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.titulos_classrom:hover{
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+.contenedor_links{
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    width: calc(150% / 3);
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 15px;
+    
+}
+
+.contenedor_links:hover{
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+.icono{
+    float: left;
+    margin-right: 10px;
+}
+
+
+.fecha{
+    font-size: 10px;
+    text-align: center;
+    float: right;   
+}
+
+.trespuntos_grande{
+    float: right;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.trespuntos_grande:hover{
+    background-color: gray;
+}
+
+.trespuntos{
+    float: right;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.trespuntos:hover{
+    background-color: gray;
+}
+
+a {
+    color: black; /* Cambiar el color del texto a negro */
+    text-decoration: none; /* Eliminar la subrayado del enlace */
+  }
